@@ -43,7 +43,8 @@
 :let _powder      = '#8fc7db'
 :let _purple      = '#7470ce'
 :let _sky         = '#b3e4eb'
-:let _pink        = '#db0088'
+:let _pink        = '#ff6666'
+:let _pink2       = '#db0088'
 :let _sap         = '#fde9a2'
 
 " Light/inverted colors (darkrock-cloud, rock-lightgrey switched)
@@ -87,7 +88,7 @@ let colorgroup['Darker']       = {"GUIFG": _gray,      "GUIBG":  _rock_dark}
 let colorgroup['ColorColumn']  = {"GUIFG": _rock_dark, "GUIBG":  _pink}
 let colorgroup['Conceal']      = {"GUIFG": _sap,        "GUI": "bold"}
 " let colorgroup['Cursor']       = {"GUIFG": _rock_dark, "GUIBG":  _turquoise}
-let colorgroup['CursorLine']   = {                     "GUIBG":  _rock}
+let colorgroup['CursorLine']   = {"GUIFG": _cloud,     "GUIBG":  _rock}
 let colorgroup['CursorLineNr'] = {"GUIFG": _gray_dark, "GUIBG":  _rock_dark}
 let colorgroup['Directory']    = {"GUIFG": _fluoric,   "GUIBG":  _rock_dark}
 let colorgroup['Error']        = {"GUIFG": _rock_dark, "GUIBG":  _pink}
@@ -124,7 +125,7 @@ let colorgroup['Comment']      = {"GUIFG": _gray,      "GUI": "italic"}
 let colorgroup['Class']        = {"GUIFG": _pink,      "GUI": "italic"}
 let colorgroup['Conditional']  = {"GUIFG": _cyan}
 let colorgroup['Constant']     = {"GUIFG": _turquoise, "GUI": "bold"}
-let colorgroup['Delimiter']    = {"GUIFG": _pink}
+let colorgroup['Delimiter']    = {"GUIFG": _pink2}
 let colorgroup['Function']     = {"GUIFG": _steel}
 let colorgroup['Identifier']   = {"GUIFG": _sky}
 let colorgroup['Module']       = {"GUIFG": _pink,      "GUI": "underline"}
